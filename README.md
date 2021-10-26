@@ -261,7 +261,7 @@ energi = sprites.create(img`
 
 
 ### Steg 2
-Få spillfiguren til å bli plassert på tilfeldig sted på skjermen. Fra ``||Scene.Scene||``-menyen finner du ``||Scene.place mySprite on top of random...||``. Legg denne i ``||loops.on start||``, under ``||Variables.Set mySprite to...||`` og velg flis med samme bakgrunn som spillebrettet. 
+Få spillfiguren til å bli plassert på et tilfeldig sted på skjermen. Fra ``||Scene.Scene||``-menyen finner du ``||Scene.place mySprite on top of random...||``. Legg denne i ``||loops.on start||``, under ``||Variables.Set mySprite to...||`` og velg flis med samme bakgrunn som spillebrettet. 
 
 ```blocks
 tiles.setTilemap(tilemap`level1`)
